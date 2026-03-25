@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anoop-rathore.vercel.app/sitemap.xml
