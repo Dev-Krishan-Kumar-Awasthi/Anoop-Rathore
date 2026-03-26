@@ -287,11 +287,10 @@ footer p + p { margin-top: 0.4rem; }
     Anoop Rathore
   </a>
   <ul class="nav-links">
-    <li><a href="#about">About</a></li>
-    <li><a href="#education">Education</a></li>
-    <li><a href="#notes">Notes</a></li>
-    <li><a href="#research">Research</a></li>
-    <li><a href="#yt">YouTube</a></li>
+    <li><a href="#about">About Sir</a></li>
+    <li><a href="#notes">📚 Notes</a></li>
+    <li><a href="#doubt">❓ Ask Doubt</a></li>
+    <li><a href="#yt">▶ YouTube</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
   <div class="hamburger" id="hamburger" onclick="toggleMenu()">
@@ -301,11 +300,10 @@ footer p + p { margin-top: 0.4rem; }
 
 <!-- MOBILE NAV -->
 <div class="mobile-nav" id="mobileNav">
-  <a href="#about" onclick="closeMenu()">About</a>
-  <a href="#education" onclick="closeMenu()">Education</a>
-  <a href="#notes" onclick="closeMenu()">Notes</a>
-  <a href="#research" onclick="closeMenu()">Research</a>
-  <a href="#yt" onclick="closeMenu()">YouTube</a>
+  <a href="#about" onclick="closeMenu()">About Sir</a>
+  <a href="#notes" onclick="closeMenu()">📚 Notes</a>
+  <a href="#doubt" onclick="closeMenu()">❓ Ask Doubt</a>
+  <a href="#yt" onclick="closeMenu()">▶ YouTube</a>
   <a href="#contact" onclick="closeMenu()">Contact</a>
 </div>
 
@@ -316,14 +314,14 @@ footer p + p { margin-top: 0.4rem; }
   <div class="hero-slide"></div>
   <div class="hero-overlay"></div>
   <div class="hero-content">
-    <div class="hero-badge">IIT Guwahati Alumnus &nbsp;·&nbsp; CSE Educator</div>
+    <div class="hero-badge">🎓 Polytechnic & Diploma Students ka Portal</div>
     <img src="annop sir.jpg" alt="Anoop Rathore" class="hero-photo">
-    <h1 class="hero-title">ANOOP <span>RATHORE</span></h1>
-    <p class="hero-tagline">"Learn not to prove, but to improve"</p>
-    <p class="hero-desc">Lecturer in Computer Science at Govt. Polytechnic College, Sidhi. M.Tech IIT Guwahati (2015). Expert in Image & Video Processing.</p>
+    <h1 class="hero-title">Aapke <span>CSE Sir</span></h1>
+    <p class="hero-tagline">"Notes lo, Samjho, Doubt pucho — sab yahan hai!"</p>
+    <p class="hero-desc">Main hoon <strong style="color:var(--cyan)">Anoop Rathore Sir</strong> — IIT Guwahati se M.Tech, aur Govt. Polytechnic College Sidhi mein CSE Lecturer. Aapke liye free notes, video lectures aur doubt solving — sab ek jagah!</p>
     <div class="hero-btns">
-      <a href="#notes" class="btn-primary">📚 Download Notes</a>
-      <a href="#contact" class="btn-outline">Let's Connect</a>
+      <a href="#notes" class="btn-primary">📚 Notes Download Karo</a>
+      <a href="#doubt" class="btn-outline">❓ Doubt Pucho</a>
     </div>
   </div>
   <div class="hero-dots" id="heroDots">
@@ -332,6 +330,16 @@ footer p + p { margin-top: 0.4rem; }
     <div class="hero-dot" onclick="goToSlide(2)"></div>
   </div>
 </section>
+
+<!-- QUICK ACCESS BAR -->
+<div style="background:var(--purple); padding:1rem 5%; display:flex; flex-wrap:wrap; gap:0.5rem; justify-content:center; align-items:center;">
+  <span style="color:rgba(255,255,255,0.6); font-size:0.82rem; margin-right:0.5rem;">⚡ Quick Access:</span>
+  <a href="#notes" style="background:rgba(255,255,255,0.15); color:#fff; padding:0.4rem 1.1rem; border-radius:25px; text-decoration:none; font-size:0.82rem; font-weight:600; border:1px solid rgba(255,255,255,0.3); transition:all 0.3s;" onmouseover="this.style.background='rgba(255,255,255,0.25)'" onmouseout="this.style.background='rgba(255,255,255,0.15)'">📚 OS Notes</a>
+  <a href="#notes" style="background:rgba(255,255,255,0.15); color:#fff; padding:0.4rem 1.1rem; border-radius:25px; text-decoration:none; font-size:0.82rem; font-weight:600; border:1px solid rgba(255,255,255,0.3); transition:all 0.3s;" onmouseover="this.style.background='rgba(255,255,255,0.25)'" onmouseout="this.style.background='rgba(255,255,255,0.15)'">📚 CN Notes</a>
+  <a href="#notes" style="background:rgba(255,255,255,0.15); color:#fff; padding:0.4rem 1.1rem; border-radius:25px; text-decoration:none; font-size:0.82rem; font-weight:600; border:1px solid rgba(255,255,255,0.3); transition:all 0.3s;" onmouseover="this.style.background='rgba(255,255,255,0.25)'" onmouseout="this.style.background='rgba(255,255,255,0.15)'">📚 DSA Notes</a>
+  <a href="#notes" style="background:rgba(255,255,255,0.15); color:#fff; padding:0.4rem 1.1rem; border-radius:25px; text-decoration:none; font-size:0.82rem; font-weight:600; border:1px solid rgba(255,255,255,0.3); transition:all 0.3s;" onmouseover="this.style.background='rgba(255,255,255,0.25)'" onmouseout="this.style.background='rgba(255,255,255,0.15)'">📚 DBMS</a>
+  <a href="#doubt" style="background:var(--pink); color:#fff; padding:0.4rem 1.2rem; border-radius:25px; text-decoration:none; font-size:0.82rem; font-weight:700; transition:all 0.3s; margin-left:0.5rem;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">❓ Doubt Pucho</a>
+</div>
 
 <!-- STATS BAR -->
 <div class="stats-bar">
@@ -472,6 +480,43 @@ footer p + p { margin-top: 0.4rem; }
   </div>
 </section>
 
+<!-- DOUBT SOLVER -->
+<section id="doubt" style="background:var(--white);">
+  <div class="section-header">
+    <div class="section-eyebrow">Clear Your Concepts</div>
+    <h2 class="section-title">Ask Your <span>Doubts</span></h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="contact-grid" style="align-items:center;">
+    <div class="reveal">
+      <h3 style="font-family:'Playfair Display',serif; font-size:1.8rem; margin-bottom:1rem; color:var(--text-dark);">Bina hichkichahat doubt pucho!</h3>
+      <p style="color:var(--text-muted); line-height:1.8; margin-bottom:2rem;">Engineering subjects thode tough ho sakte hain. Koi bhi concept samajh na aaye, ya college assignment mein problem ho — aap apne doubts direct mujhse puch sakte hain.</p>
+      
+      <div style="display:flex; flex-direction:column; gap:1rem;">
+        <a href="https://www.youtube.com/@anooprathore9785" target="_blank" style="display:flex; align-items:center; gap:1rem; padding:1.2rem; background:var(--light-bg); border-radius:12px; text-decoration:none; color:var(--text-dark); font-weight:600; transition:var(--transition); border:1px solid rgba(103,58,183,0.1);" onmouseover="this.style.transform='translateX(8px)'; this.style.borderColor='var(--purple)';" onmouseout="this.style.transform='translateX(0)'; this.style.borderColor='rgba(103,58,183,0.1)';">
+          <div style="width:40px; height:40px; border-radius:10px; background:#ff0000; color:#fff; display:flex; align-items:center; justify-content:center;">▶</div>
+          <div>
+            <div style="font-size:1rem;">YouTube Comment</div>
+            <div style="font-size:0.8rem; color:var(--text-muted); font-weight:400;">Fastest reply on video comments</div>
+          </div>
+        </a>
+        <a href="https://www.instagram.com/anooprathore315" target="_blank" style="display:flex; align-items:center; gap:1rem; padding:1.2rem; background:var(--light-bg); border-radius:12px; text-decoration:none; color:var(--text-dark); font-weight:600; transition:var(--transition); border:1px solid rgba(103,58,183,0.1);" onmouseover="this.style.transform='translateX(8px)'; this.style.borderColor='var(--purple)';" onmouseout="this.style.transform='translateX(0)'; this.style.borderColor='rgba(103,58,183,0.1)';">
+          <div style="width:40px; height:40px; border-radius:10px; background:linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); color:#fff; display:flex; align-items:center; justify-content:center;">📸</div>
+          <div>
+            <div style="font-size:1rem;">Instagram DM</div>
+            <div style="font-size:0.8rem; color:var(--text-muted); font-weight:400;">For quick voice notes and photo sharing</div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="reveal" style="background: linear-gradient(135deg, var(--blue), var(--purple)); padding:3rem; border-radius:20px; text-align:center; color:#fff; box-shadow:0 10px 30px rgba(103,58,183,0.2);">
+      <div style="font-size:4rem; margin-bottom:1rem;">💡</div>
+      <h3 style="font-family:'Playfair Display',serif; font-size:1.6rem; margin-bottom:1rem;">Pro Tip for Students</h3>
+      <p style="opacity:0.9; line-height:1.7; font-size:0.95rem;">Hamesha apna doubt clear likhein aur ho sake toh photo/screenshot jarur bhejein jisse mujhe samajhne mein aasaani ho.</p>
+    </div>
+  </div>
+</section>
+
 <!-- RESEARCH -->
 <section id="research">
   <div class="section-header">
@@ -543,8 +588,9 @@ footer p + p { margin-top: 0.4rem; }
 
 <!-- SOCIAL -->
 <div class="social-strip">
-  <h3>Connect & Follow</h3>
-  <p>Like, Share & Subscribe — Support free education for every student!</p>
+<div class="social-strip">
+  <h3>Join 1000+ Engineering Students</h3>
+  <p>Humari CSE community ka hissa banein — Channel subscribe karein aur nayi videos miss na karein!</p>
   <div class="social-links">
     <a href="https://www.youtube.com/@anooprathore9785" target="_blank" class="social-btn yt">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23 7s-.3-2-1.2-2.8c-1.1-1.2-2.4-1.2-3-1.3C16.1 2.8 12 2.8 12 2.8s-4.1 0-6.8.1c-.6.1-1.9.1-3 1.3C1.3 5 1 7 1 7S.7 9.1.7 11.2v2c0 2.1.3 4.2.3 4.2s.3 2 1.2 2.8c1.1 1.2 2.6 1.1 3.3 1.2C7.5 21.5 12 21.5 12 21.5s4.1 0 6.8-.2c.6-.1 1.9-.1 3-1.3.9-.8 1.2-2.8 1.2-2.8s.3-2.1.3-4.2v-2C23.3 9.1 23 7 23 7zM9.7 15.5V8.4l6.5 3.6-6.5 3.5z"/></svg>
