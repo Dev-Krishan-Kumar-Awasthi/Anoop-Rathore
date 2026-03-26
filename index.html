@@ -1190,14 +1190,51 @@
       </div>
     </div>
 
-    <div class="premium-card fade-in" style="background: #000; padding: 0; overflow: hidden; border: 2px solid var(--accent);">
-       <p style="position: absolute; top: 1rem; left: 1rem; z-index: 10; font-size: 0.7rem; background: var(--accent); color: var(--bg-dark); padding: 0.2rem 0.5rem; font-weight: 800;">LATEST UPLOADS</p>
-       <iframe 
-        style="width: 100%; height: 100%; min-height: 400px; border: none;"
-        src="https://www.youtube.com/embed?listType=user_uploads&list=anooprathore9785" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
-      </iframe>
+    <div class="fade-in" style="background: var(--bg-navy); border: 2px solid var(--accent); border-radius: 16px; overflow: hidden; position: relative;">
+      <div style="display: flex; justify-content: space-between; align-items: center; padding: 1.2rem 1.5rem; background: #000; border-bottom: 1px solid var(--glass-border);">
+        <div style="display: flex; align-items: center; gap: 0.8rem;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="#ff0000"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.42a2.78 2.78 0 0 0-1.94 2C1 8.11 1 12 1 12s0 3.89.46 5.58a2.78 2.78 0 0 0 1.94 2c1.72.42 8.6.42 8.6.42s6.88 0 8.6-.42a2.78 2.78 0 0 0 1.94-2C23 15.89 23 12 23 12s0-3.89-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="#fff"/></svg>
+          <span style="font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1rem; color: #fff;">Latest Uploads</span>
+        </div>
+        <a href="https://www.youtube.com/@anooprathore9785/videos" target="_blank" rel="noopener" style="font-size: 0.8rem; color: var(--accent); text-decoration: none; font-weight: 600; border: 1px solid var(--accent); padding: 0.3rem 0.8rem; border-radius: 20px; transition: all 0.3s;">View All →</a>
+      </div>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0;">
+        <!-- Video 1 -->
+        <a href="https://www.youtube.com/watch?v=ZLEMtDS4-wQ" target="_blank" rel="noopener" style="text-decoration: none; display: block; position: relative; border-right: 1px solid var(--glass-border); border-bottom: 1px solid var(--glass-border); overflow: hidden; group;">
+          <div style="position: relative; overflow: hidden;">
+            <img src="https://img.youtube.com/vi/ZLEMtDS4-wQ/mqdefault.jpg" alt="Process State Diagram" style="width: 100%; display: block; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 60%);"></div>
+            <div style="position: absolute; bottom: 0.6rem; left: 0.6rem; right: 0.6rem; font-size: 0.75rem; font-weight: 600; color: #fff; line-height: 1.3;">Process State Diagram Explained</div>
+            <div style="position: absolute; top: 0.5rem; right: 0.5rem; background: rgba(0,0,0,0.8); color: #fff; font-size: 0.65rem; padding: 0.1rem 0.4rem; border-radius: 3px;">36:07</div>
+          </div>
+        </a>
+        <!-- Video 2 -->
+        <a href="https://www.youtube.com/watch?v=pA64qSXTQ_k" target="_blank" rel="noopener" style="text-decoration: none; display: block; position: relative; border-bottom: 1px solid var(--glass-border); overflow: hidden;">
+          <div style="position: relative; overflow: hidden;">
+            <img src="https://img.youtube.com/vi/pA64qSXTQ_k/mqdefault.jpg" alt="Process Memory" style="width: 100%; display: block; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 60%);"></div>
+            <div style="position: absolute; bottom: 0.6rem; left: 0.6rem; right: 0.6rem; font-size: 0.75rem; font-weight: 600; color: #fff; line-height: 1.3;">Text Data Heap Stack | Process Memory</div>
+            <div style="position: absolute; top: 0.5rem; right: 0.5rem; background: rgba(0,0,0,0.8); color: #fff; font-size: 0.65rem; padding: 0.1rem 0.4rem; border-radius: 3px;">31:10</div>
+          </div>
+        </a>
+        <!-- Video 3 -->
+        <a href="https://www.youtube.com/watch?v=WF-4jkRdJ5k" target="_blank" rel="noopener" style="text-decoration: none; display: block; position: relative; border-right: 1px solid var(--glass-border); overflow: hidden;">
+          <div style="position: relative; overflow: hidden;">
+            <img src="https://img.youtube.com/vi/WF-4jkRdJ5k/mqdefault.jpg" alt="Program vs Process" style="width: 100%; display: block; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 60%);"></div>
+            <div style="position: absolute; bottom: 0.6rem; left: 0.6rem; right: 0.6rem; font-size: 0.75rem; font-weight: 600; color: #fff; line-height: 1.3;">Program और Process में अंतर | OS Notes</div>
+            <div style="position: absolute; top: 0.5rem; right: 0.5rem; background: rgba(0,0,0,0.8); color: #fff; font-size: 0.65rem; padding: 0.1rem 0.4rem; border-radius: 3px;">22:43</div>
+          </div>
+        </a>
+        <!-- Video 4 -->
+        <a href="https://www.youtube.com/@anooprathore9785/videos" target="_blank" rel="noopener" style="text-decoration: none; display: block; position: relative; overflow: hidden; background: var(--bg-dark); display: flex; align-items: center; justify-content: center; min-height: 120px;">
+          <div style="text-align: center; padding: 1.5rem;">
+            <div style="font-family: 'Syne', sans-serif; font-size: 2rem; font-weight: 800; color: var(--accent);">351+</div>
+            <div style="font-size: 0.8rem; color: var(--text-primary); margin-top: 0.3rem;">More Videos</div>
+            <div style="font-size: 0.75rem; color: var(--accent); margin-top: 0.8rem; border: 1px solid var(--accent); padding: 0.3rem 0.8rem; border-radius: 20px; display: inline-block;">Watch All →</div>
+          </div>
+        </a>
+      </div>
     </div>
   </div>
 </section>
