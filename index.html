@@ -164,19 +164,27 @@
     transform: translateY(-5px);
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     .social-sidebar { 
-      left: 1rem; 
       bottom: 2rem;
+      left: 1.5rem;
       gap: 1.5rem;
     }
-    .social-sidebar::after { height: 50px; }
-  }
-
-  /* YouTube Grid Responsive */
-  @media (max-width: 600px) {
+    .social-sidebar::after { height: 40px; }
+    
+    #contact > div {
+      grid-template-columns: 1fr !important;
+      gap: 3rem !important;
+    }
+    
     .youtube-grid {
       grid-template-columns: 1fr !important;
+    }
+    
+    footer > div {
+      flex-direction: column;
+      text-align: center;
+      gap: 1.5rem;
     }
   }
 
