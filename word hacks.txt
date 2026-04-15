@@ -1,0 +1,77 @@
+Scouts by Yutori: https://links.trak.in/r/ai-scouts
+Kimi AI: https://links.trak.in/r/kimi-k2
+Google AI Studio: https://links.trak.in/r/ai-studio
+Perplexity: https://links.trak.in/r/perplexai
+Framer: https://links.trak.in/r/framer
+Genspark: https://links.trak.in/r/genspark
+AI PlayLab : https://links.trak.in/r/aiplaylb
+​Suno: https://links.trak.in/r/suno-ai
+​ElevenLabs: https://links.trak.in/r/elevenlab
+​Canva: https://links.trak.in/r/canva
+​Bonus: https://links.trak.in/r/googleai 
+
+
+
+Aapne jo file share ki hai usme har page par jo horizontal lines (horizontal rules) hain aur jo extra space hai, unhe hatakar aap pages ki sankhya 114 se kaafi kam kar sakte hain. Content bina delete kiye page kam karne ke liye aap ye steps follow karein:
+
+### 1. Horizontal Lines (Lines) ko hatayein
+Aapke document mein har section ke baad `-----` jaisi lines hain. Inhe hatane ke liye:
+* **Find and Replace** ka use karein (`Ctrl + H` dabayein).
+* **Find** mein 3 ya usse zyada dashes `---` likhein.
+* **Replace with** ko khali chhod dein aur **Replace All** par click karein.
+
+### 2. Line Spacing aur Paragraph Space kam karein
+Aapka content kafi phaila hua hai. Isse tight karne ke liye:
+* Pure text ko select karein (`Ctrl + A`).
+* Menu mein **Format > Line & paragraph spacing** par jayein.
+* Isse **Single** (1.0) par set karein.
+* Saath hi **"Remove space after paragraph"** par click karein taaki har line ke beech ki faltu jagah khatam ho jaye.
+
+### 3. Margin aur Font Size adjust karein
+* **File > Page setup** par jayein aur **Margins** (Top, Bottom, Left, Right) ko kam karke **0.5 inch** kar dein. Isse ek page par zyada text aayega.
+* Agar font size bada hai (jaise 12 ya 14), to pure text ko select karke font size **10** ya **11** kar dein. [Unit 2 (1)](https://docs.google.com/document/d/1gCC-21iLB9DvK2AqD3T04lYWyE3GY6BLKl2yr6dm6ig/edit?tab=t.0) mein Arial font ka use hua hai jo 10 size par bhi saaf dikhta hai. [cite: 2]
+
+### 4. Images aur Diagrams ka size chhota karein
+Document mein jo diagrams aur emojis hain, unka size thoda chhota kar dein taaki wo kam jagah gherein. [cite: 2]
+
+### 5. Multi-Column Layout (Sabse asar-dar tarika)
+Print nikalne ke liye ye sabse best hai:
+* **Format > Columns** par jayein aur **2 Columns** select karein. Isse aapka 114 page ka content lagbhag aadha (50-60 pages) ho sakta hai kyunki khali space kam ho jayegi.
+
+**Kya aap chahte hain ki main aapke liye is document ka ek chhota summary bana doon jise aap aasani se print kar sakein?**
+
+114 pages ko 5-6 pages mein sametna thoda mushkil hai, lekin hum isse **kaafi had tak kam (lagbhag 15-20 pages tak)** kar sakte hain bina content delete kiye. Agar aapko 5-6 pages hi chahiye, toh content ko summary mein badalna padega.
+
+Bina content delete kiye, maximum compression ke liye ye setting try karein:
+
+### 1. Margins ko "Zero" ya "0.2" karein
+Standard margins bahut jagah waste karte hain.
+* **File > Page setup** par jayein.
+* Sabhi margins (Top, Bottom, Left, Right) ko **0.2** kar dein. Isse text page ke bilkul kinare tak chala jayega.
+
+### 2. Font Size aur Style badlein
+* Pure text ko select karein (`Ctrl + A`).
+* Font size ko **8** ya **9** kar dein. (Printing ke liye 9 readable hota hai).
+* Font style ko **"Arial Narrow"** ya **"Calibri"** choose karein, ye fonts kam jagah lete hain.
+
+### 3. Paragraph Spacing "Zero" karein
+Aapke [Unit - 4 - Google Docs](https://docs.google.com/document/d/175VDnCh-SlgVFUQF2bI3tPpO0SfctNqgpb1CTg77SYM/edit?tab=t.0#heading=h.v9s9iq41dhj3) mein lines ke beech kaafi gap hai.
+* `Ctrl + A` dabayein.
+* **Format > Line & paragraph spacing** mein jayein.
+* **"Custom spacing"** select karein.
+* **Line spacing** ko `0.8` ya `0.9` kar dein aur **Paragraph spacing (Before & After)** dono ko `0` kar dein.
+
+### 4. 3-Column Layout (Sabse important)
+Jab text bahut zyada ho, toh columns ka use karein:
+* **Format > Columns** par jayein aur **3 columns** wala option select karein. Isse ek hi page par teen guna zyada content aayega.
+
+### 5. Images aur Emojis hatayein
+Aapke doc mein kaafi emojis (👉, 🌋, 🌊) hain. Inhe hatane se aur space bachegi:
+* `Ctrl + H` dabayein aur images/emojis ko search karke replace (khali) kar dein.
+
+### 6. Printing ke waqt "2-Sided" aur "2 Pages per Sheet"
+Jab aap PDF banayein ya Print karein:
+* Print setting mein **"Pages per sheet"** ko **2** select karein.
+* Isse computer khud ek paper par do pages print kar dega, jisse 114 pages ka document physical papers mein bahut kam ho jayega.
+
+**Agar aap chahte hain, toh main is pure document ki ek "Short Summary" bana sakta hoon jo sirf 5-6 pages mein aa jaye?**

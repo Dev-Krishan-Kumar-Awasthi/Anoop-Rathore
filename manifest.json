@@ -1,0 +1,21 @@
+{
+  "name": "Anoop Rathore | Portfolio",
+  "short_name": "Anoop Portfolio",
+  "description": "Portfolio of Anoop Rathore, IIT Guwahati Alumnus and CSE Lecturer. Providing Polytechnic Diploma Notes.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#050c18",
+  "theme_color": "#ffb800",
+  "icons": [
+    {
+      "src": "annop sir.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "annop sir.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
